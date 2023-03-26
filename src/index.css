@@ -1,0 +1,39 @@
+/* This is the background of the styling where variables go and we get our google fonts */
+
+@font-face {
+    font-family: 'Monument Extended Black';
+    src: url('./fonts/PPMonumentExtended-Black.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Monument Extended Light';
+    src: url('./fonts/PPMonumentExtended-Light.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Monument Extended Regular';
+    src: url('./fonts/PPMonumentExtended-Regular.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+:root {
+    /* Fonts */
+  --font-Light: 'Monument Extended Light', sans-serif;
+  --font-Regular: 'Monument Extended Regular', sans-serif;
+  --font-Black: 'Monument Extended Black', sans-serif;
+
+    /* Gradients */
+  --gradient-eclipse: linear-gradient(180deg, #FF7BCA 0%, rgba(255, 197, 111, 0.46) 100%);
+  --gradient-tropic: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
+  --gradient-planet: linear-gradient(180deg, #F22FB0 0%, rgba(245, 138, 37, 0) 100%, #7061A3 100%);
+
+  /* Colours */
+  --color-hero-bg: #101010;
+  --color-footer : #313131;
+  --color-app: #222222;
+  --color-text: #ffffff;
+}
+ /* We will import this file in our index.js because that is where we communicate with our HTML */
