@@ -1,0 +1,39 @@
+.navbar-section {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .text-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .left-text,
+  .right-text {
+    font-family: "Monument Extended Black";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 17px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0;
+  }
+  
+  .right-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sa {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+  
