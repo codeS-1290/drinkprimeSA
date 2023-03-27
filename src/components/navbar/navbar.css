@@ -25,12 +25,13 @@
   .right-text {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .sa {
     margin-left: 5px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
   
   .logo {

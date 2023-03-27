@@ -1,17 +1,22 @@
 import React from "react";
 import "./cards.css";
 
-
-const Cards = ({imgUrl, title, description}) => {
-
+const Cards = ({ imgUrl, title, description, price }) => {
   return (
     <div className="card">
-      <h1>{title}</h1>
-      <div style={{ display: "flex", alignItems: "center" }}></div>
-      <img src={imgUrl} alt='Prime Drink'></img>
-      <p>{description}</p>
+      <div className="img-container">
+        <img className="Bottle" src={imgUrl} alt="Prime Drink"></img>
+      </div>
+      <div className="text-container">
+        <h1>{title}</h1>
+        <div className="centralize">
+          <p className="description">{description}</p>
+        </div>
+
+        <p className="price">{price}</p>
+      </div>
     </div>
   );
-}
+};
 
 export default Cards;

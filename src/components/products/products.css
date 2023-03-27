@@ -1,4 +1,148 @@
 .productHolder {
     display: flex;
-    align-items: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    font-family: 'Monument Extended Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin: 80px 0;
+}
+
+.nutrient-items {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+
+    margin-bottom: 42px;
+  }
+  
+  .Anti {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+  }
+  
+  .Coco {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+  
+  .Electro {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+  }
+  
+  .Vitamins {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+  }
+  
+  .Muscle {
+    grid-column: 4 / 5;
+    grid-row: 2 / 2;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .buttons img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 43px;
+  }
+
+  /* Media Queries */
+
+
+/* Media queries for small screens */
+@media only screen and (max-width: 767px) {
+    .head {
+        font-size: 28px;
+        line-height: 24px;
+        margin: 40px 0;
+        }
+        
+    .nutrient-items {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      margin-bottom: 30px;
+    }
+  
+    .buttons {
+      height: 80%;
+      width: 80%;
+    }
+
+    .arrow {
+        margin-bottom: 20px;
+        }
+  }
+  
+  /* Media queries for medium screens */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .nutrient-items {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin-bottom: 30px;
+    }
+  
+    .buttons {
+      height: 60%;
+      width: 60%;
+    }
+
+    .head {
+        font-size: 36px;
+        line-height: 30px;
+        margin: 50px 0;
+        }
+        .arrow {
+            margin-bottom: 30px;
+            }
+  }
+  
+  /* Media queries for large screens */
+  @media only screen and (min-width: 1024px) {
+    .nutrient-items {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin-bottom: 42px;
+    }
+  
+    .buttons {
+      height: 100%;
+      width: 100%;
+    }
+  }

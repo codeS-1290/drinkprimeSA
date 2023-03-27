@@ -1,7 +1,98 @@
 .card {
-    padding: 10px;
-    margin: 15px;
-    background-color: #333333;
-    max-width: 200px;
-    border-radius: 8px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding: 1.5rem;
+  margin: 15px;
+  background-color: #333333;
+  max-width: 450px;
+  border-radius: 31.934px;
 }
+
+.text-container {
+  margin: 52px 0 0 0;
+  color: #ffffff;
+  width: 100%;
+}
+.img-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Bottle {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Monument Extended Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.centralize {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.description {
+  font-family: "Monument Extended Light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+
+.price {
+  position: absolute;
+  bottom: 30px;
+  font-family: "Monument Extended Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7654px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+  flex-direction: column;
+  }
+.img-container{
+  height: 100%;
+}
+  
+  .text-container {
+  margin: 20px 0 0 0;
+  height: 100%;
+  }
+  
+  .price {
+  position: static;
+  margin-top: 20px;
+  text-align: center;
+  }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card{
+      max-width: 100%;
+    }
+  .img-container {
+  justify-content: center;
+  }
+  
+  .description {
+  margin-top: 40px;
+  }
+  }
