@@ -1,0 +1,84 @@
+.footer-section {
+  width: 100%;
+  background: #313131;
+  border-radius: 50px 50px 0px 0px;
+  padding: 48px 58px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 201px;
+}
+
+.footer-logo img {
+  max-width: 420px;
+}
+
+.footer-about {
+  margin-top: 60px;
+  color: #ffffff;
+  max-width: 425px;
+}
+
+.footer-about h1 {
+  font-family: "Monument Extended Black";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 72px;
+  text-transform: capitalize;
+}
+
+.footer-about p {
+  font-family: "Monument Extended Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.footer-closing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer-closing p {
+  display: flex;
+  align-items: center;
+}
+
+.Heart {
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.footer-closing span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-socials{
+    margin-top: 60px;
+}
+.footer-socials h1 {
+  font-family: "Monument Extended Black";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 72px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

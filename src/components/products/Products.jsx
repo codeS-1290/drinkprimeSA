@@ -29,11 +29,11 @@ function Products() {
       </div>
 
       <div className="nutrient-items">
-        <buttons className="Anti"><img src={Anti} alt="Antioxidants" /></buttons>
-        <buttons className="Coco"><img src={Coconut} alt="Coconut" /></buttons>
-        <buttons className="Electro"><img src={Electro} alt="Electro" /></buttons>
-        <buttons className="Vitamins"><img src={Vitamin} alt="Vitamins" /></buttons>
-        <buttons className="Muscle"><img src={Muscle} alt="Strength" /></buttons>
+        <button className="Anti"><img src={Anti} alt="Antioxidants" /></button>
+        <button className="Coco"><img src={Coconut} alt="Coconut" /></button>
+        <button className="Electro"><img src={Electro} alt="Electro" /></button>
+        <button className="Vitamins"><img src={Vitamin} alt="Vitamins" /></button>
+        <button className="Muscle"><img src={Muscle} alt="Strength" /></button>
       </div>
       
       <div className="arrow">
