@@ -1,14 +1,17 @@
-import React from 'react'
-import  './cards.css';
+import React from "react";
+import "./cards.css";
 
-function Cards(props) {
-  return (<div className='card'>
-    <h1>{props.title}</h1>
-    <div style={{display: 'flex', alignItems: 'center'} }></div>
-    <img src={props.imgName}></img>
-    <p>{props.description}</p>
 
-  </div>);
+const Cards = ({imgUrl, title, description}) => {
+
+  return (
+    <div className="card">
+      <h1>{title}</h1>
+      <div style={{ display: "flex", alignItems: "center" }}></div>
+      <img src={imgUrl} alt='Prime Drink'></img>
+      <p>{description}</p>
+    </div>
+  );
 }
 
-export default Cards
+export default Cards;
