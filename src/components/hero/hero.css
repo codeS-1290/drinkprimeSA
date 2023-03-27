@@ -1,0 +1,58 @@
+#heroDiv {
+    background-color: #101010;
+    height: 150vh;
+}
+#HeroMainContainer {
+    position: relative;
+}
+
+#bottleImage {
+    position: absolute;
+    left: 30vh; 
+    top: 15vh;
+    width: 130vh;
+    z-index: 1;
+}
+
+#explosionImage {
+    position: absolute;
+    left: 30vh;
+    top: 0vh;
+    width: 130vh;
+}
+
+#scrollImage {
+    position: absolute;
+    left: 100vh;
+    top: 120vh;
+    width: 30px;
+}
+
+.heroText {
+    color: white;
+    font-family: "Monument Extended Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.heroMainText {
+    position: absolute;
+    top:50vh;
+    width: 100%;
+    font-family: 'Monument Extended Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 270px;
+    letter-spacing: 0.1em;
+    z-index: 0;
+    background-image: linear-gradient(180deg, rgba(162, 162, 162, 0.88), rgba(161, 161, 161, 0.3));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    text-align: center;
+}
