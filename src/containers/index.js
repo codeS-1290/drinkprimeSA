@@ -1,4 +1,3 @@
-export {default as Blobs} from "./blobs/Blobs"
 export {default as Cards} from "./cards/Cards"
 
 

@@ -3,10 +3,11 @@
   position: relative;
   flex-direction: row;
   padding: 1.5rem;
-  margin: 15px;
+  margin: 15px 15px 60px;
   background-color: #333333;
   max-width: 450px;
   border-radius: 31.934px;
+  z-index: 1;
 }
 
 .text-container {
