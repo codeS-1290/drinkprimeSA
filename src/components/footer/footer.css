@@ -2,7 +2,7 @@
   width: 100%;
   background: #313131;
   border-radius: 50px 50px 0px 0px;
-  padding: 48px 58px;
+  padding: 48px 50px;
 }
 
 .footer-links {
@@ -20,6 +20,7 @@
   margin-top: 60px;
   color: #ffffff;
   max-width: 425px;
+  margin-right: 35px;
 }
 
 .footer-about h1 {
@@ -50,6 +51,13 @@
 .footer-closing p {
   display: flex;
   align-items: center;
+  font-family: "Monument Extended Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .Heart {
@@ -61,9 +69,11 @@
 .footer-closing span {
   text-decoration: underline;
   cursor: pointer;
+  
+ 
 }
-.footer-socials{
-    margin-top: 60px;
+.footer-socials {
+  margin-top: 60px;
 }
 .footer-socials h1 {
   font-family: "Monument Extended Black";
@@ -76,9 +86,68 @@
   color: #ffffff;
 }
 
-.button-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .footer-logo img {
+    width: 100%;
+  }
+  .footer-logo {
+    margin-top: 60px;
+  }
+  .footer-section {
+    padding: 24px 29.5px;
+  }
+  .footer-about h1 {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start; /* add this line */
+  }
+  .footer-links a {
+    margin-bottom: 20px; /* add this line */
+  }
+  .footer-socials {
+    margin-top: 30px; /* reduce this value */
+    display: flex;
+    flex-direction: column; /* add this line */
+    justify-content: flex-start; /* add this line */
+  }
+  .footer-socials a {
+    margin-right: 20px; /* add this line */
+  }
+  .footer-socials h1 {
+    font-size: 14px;
+    margin-right: 20px; /* add this line */
+  }
+  .insta {
+    margin-right: 8px;
+  }
+}
+  @media screen and (max-width: 545px) {
+    
+    
+    .footer-logo {
+      margin-top: 40px;
+    }
+    .footer-section {
+      padding: 24px ;
+    }
+    
+    .footer-closing p {
+      font-size: 8px ;
+    }
+   
+  
+
+  }
+
+

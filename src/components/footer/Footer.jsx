@@ -22,7 +22,7 @@ function Footer() {
         <div className="footer-socials">
           <h1>Media</h1>
           <div className="button-container">
-          <button style={{marginRight: "15px"}}><a href="https://www.instagram.com/prime_south/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" /></a></button>
+          <button className='insta' style={{marginRight: "15px"}}><a href="https://www.instagram.com/prime_south/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" /></a></button>
           <button><a href="https://www.facebook.com/profile.php?id=100085976126418&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook" /></a></button>
           </div>
         </div>
