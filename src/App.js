@@ -9,9 +9,12 @@ const App = () => {
   const ctaRef = useRef(null);
 
   const scrollToRef = (ref) => {
-    $("html, body").animate({
-      scrollTop: ref.current.offsetTop
-    }, 1000);
+    $("html, body").animate(
+      {
+        scrollTop: ref.current.offsetTop,
+      },
+      1000
+    );
   };
 
   return (
@@ -32,3 +35,19 @@ const App = () => {
 };
 
 export default App;
+
+/*   return (
+    <div className="App">
+      <div className="color-app">
+        <Navbar />
+        <Hero />
+        <div ref={productsRef}>
+          <Products />
+        </div>
+        <div ref={ctaRef}>
+          <Cta />
+        </div>
+        <Footer />
+      </div>
+    </div>
+  ); */

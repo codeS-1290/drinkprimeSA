@@ -9,6 +9,7 @@ in the index.css where the background stuff go */
 }
  body{
     background: var(--color-app);
+    width: 100%;
  }
 
  /* General Link styles*/

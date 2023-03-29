@@ -26,7 +26,8 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    top: -167px;
+    max-width: 1000px;
+    top: 10vh;
     z-index: 1;
 }
 
@@ -82,7 +83,18 @@
 }
 
 .bottle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    width: 100%;
+    max-width: 1000px;
+    top: 10vh;
+    z-index: 1;
+}
+
+.bottle-container img {
+    width: 100%;
 }
 
 .slide-button{
