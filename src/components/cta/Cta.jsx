@@ -9,6 +9,8 @@ function Cta() {
       <div className="blobs-container">
         <img src={Blob} alt="Blob Background" />
       </div>
+      <div className="cta-card-holder">
+
 
       <div className="cta-card">
         <p className="call">Are You Ready?</p>
@@ -21,6 +23,7 @@ function Cta() {
           <span></span>
           <p>How to Buy</p>
         </button>
+        </div>
       </div>
     </div>
   );
