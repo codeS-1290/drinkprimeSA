@@ -16,7 +16,6 @@
     font-weight: 400;
     font-size: 20px;
     text-transform: uppercase;
-    white-space: nowrap;
     text-align: center;
 }
 
@@ -59,6 +58,7 @@
 .E{
     position: relative;
     left: 8%;
+    
 }
 .text p {
     font-family: "Monument Extended Regular", sans-serif;
@@ -114,3 +114,61 @@
       transform: translateY(-10px);
     }
 }
+
+@media (max-width : 530px) {
+
+    .P{
+        position: relative;
+        left: -2%;
+        top: -100px;
+        
+        
+    }
+    .R{
+        position: relative;
+        left: -2%;
+        top: -100px;
+        display: none;
+    }
+    
+    .M{
+        position: relative;
+        left: -2%;
+        top: -100px;
+        display: none;
+    }
+    .E{
+       
+        display: none;
+    }   
+
+    .I{
+
+display: none;
+
+    }
+
+    .text p {
+        font-family: "Monument Extended Regular", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* added for horizontal centering */
+        text-align: center;
+        text-transform: uppercase;
+    
+}
+
+.text {
+
+    display: none ;
+}
+
+.explosion img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
