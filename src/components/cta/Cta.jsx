@@ -1,5 +1,7 @@
 import React from "react";
 import "./cta.css";
+import instagram from "../../assets/instagram 1.svg";
+import whatsapp from "../../assets/whatsapp.png";
 
 import Blob from "../../assets/Blobs.svg";
 
@@ -13,16 +15,21 @@ function Cta() {
 
 
       <div className="cta-card">
-        <p className="call">Are You Ready?</p>
-        <h1>Elevate your thirst game with DrinkPrimeSA!</h1>
+        
+        <h1>Order our Prime Drinks Today!</h1>
+        <p className="call">To order our prime drinks, simply give us a call or send us an email using the contact details below.</p>
+        <div className="outerFlex">
 
-        <button className="buy">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <p>How to Buy</p>
-        </button>
+
+        <div className="flex">
+          <img src={whatsapp}></img>
+          <p> Message 0722177128 on whatsapp</p>
+        </div>
+        <div className="flex">
+          <img src={instagram}></img>
+          <p> Dm @prime_south on Instagram </p>
+        </div>
+        </div>
         </div>
       </div>
     </div>

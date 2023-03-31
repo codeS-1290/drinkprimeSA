@@ -69,12 +69,7 @@
     background: none;
     cursor: pointer;
   }
-  
-  button img {
-    max-height: 100%;
-    max-width: 100%;
-  }
-  
+
   .arrow{
     display: flex;
     justify-content: center;
@@ -99,7 +94,7 @@
       margin-bottom: 30px;
     }
   
-    .buttons {
+    .buttons {  
       height: 80%;
       width: 80%;
     }
