@@ -121,6 +121,9 @@
   cursor: pointer;
   animation: bounce 1s infinite;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 @keyframes bounce {
@@ -208,3 +211,5 @@ display: none;
         height: 550px;
     }
 }
+
+

@@ -59,7 +59,7 @@
     grid-row: 2 / 2;
   }
   
-  button {
+  .nutrient-items button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@
     .nutrient-items {
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
   
     .buttons {
@@ -141,4 +141,21 @@
       height: 100%;
       width: 100%;
     }
+  }
+
+  @media(max-width:766px){
+    .arrow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      margin-bottom: 0;
+      
+    }
+    .nutrient-items {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin-bottom: 20px;
+    }
+
   }
