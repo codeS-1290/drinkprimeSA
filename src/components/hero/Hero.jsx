@@ -1,11 +1,27 @@
-import React from "react";
-import { animateScroll as scroll } from "react-scroll";
+import React, { useRef, useEffect } from "react";
 import bottle from "../../assets/Huge Prime.svg";
 import explosion from "../../assets/White explo.svg";
 import "./hero.css";
-import scrollIcon from "../../assets/ScrollHint.svg"; //I don't know where the scroll icon is. Change it if you find it.
+import scrollIcon from "../../assets/ScrollHint.svg";
 
 function Hero() {
+  const productsRef = useRef(null);
+
+  const handleClick = () => {
+    if (productsRef.current) {
+      window.scrollTo({
+        top: productsRef.current.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  useEffect(() => {
+    const button = document.querySelector(".slide-button button");
+    button.addEventListener("click", handleClick);
+    return () => button.removeEventListener("click", handleClick);
+  }, []);
+
   return (
     <div className="hero-section">
       <div id="heroDiv">
@@ -34,11 +50,12 @@ function Hero() {
         </div>
 
         <div className="slide-button">
-          <button onClick={() => scroll.scrollTo(window.innerHeight)}>
+          <button>
             <img src={scrollIcon} alt="Scroll Down" />
           </button>
         </div>
       </div>
+      <div ref={productsRef}></div>
     </div>
   );
 }

@@ -153,7 +153,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  
       margin-bottom: 0;
       
     }
@@ -163,4 +162,11 @@
       margin-bottom: 20px;
     }
 
+  }
+
+  @media screen and (max-width:750px) {
+    .Coco img,.Vitamins img {
+      width: 70%;
+      height: 70%;
+    }
   }
