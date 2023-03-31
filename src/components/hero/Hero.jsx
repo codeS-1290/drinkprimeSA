@@ -11,7 +11,7 @@ function Hero() {
       <div id="heroDiv">
         <div className="hero-head">
           <p>
-            Join the Prime Revolution: Sip on the Hottest Drink in South Africa!
+            Join the Prime Revolution: Sip on the Coolest Drink in South Africa!
           </p>
         </div>
 

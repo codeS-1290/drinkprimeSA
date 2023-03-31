@@ -8,8 +8,13 @@
   max-width: 450px;
   border-radius: 31.934px;
   z-index: 1;
+  transition: all 0.3s ease-in;
+  overflow: hidden;
+  cursor: pointer;
 }
-
+.card:hover{
+  box-shadow: .7rem .7rem #05060f;
+}
 .text-container {
   margin: 52px 0 0 0;
   color: #ffffff;
