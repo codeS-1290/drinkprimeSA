@@ -7,6 +7,11 @@ in the index.css where the background stuff go */
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+button{
+    background: none;
+    border: none;
+}
  body{
     background: var(--color-app);
     width: 100%;
