@@ -18,11 +18,15 @@
   
 }
 
-
+.cta-card-holder {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .cta-card {
   max-width: 1288px;
   margin: 138px auto;
-  padding: 52px 251px 70px 251px;
+  padding: 52px 50px 70px 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -43,12 +47,11 @@
 
 .call {
   font-family: "Monument Extended Regular", sans-serif;
+  width: 80%;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 72px;
-  display: flex;
-  align-items: center;
+  line-height: 40px;
   text-align: center;
   text-transform: capitalize;
   color: #ffffff;
@@ -74,8 +77,10 @@
     background: #fafafa;
     border-radius: 25px;
     padding: 0;
-    width: 281px;
-    height: 82px;
+    width: 50%;
+    height: 20%;
+    min-height: 80px;
+    min-width: 175px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -177,3 +182,33 @@
     transition-delay: none;
    }
    
+@media (max-width: 768px) {
+  .call {
+    font-size: 15px;
+  }
+  .cta-card h1 {
+    font-size: 23px;
+    margin-top: 12px;
+    line-height: normal;
+  }
+
+  .buy p {
+    font-size: 20px;
+    line-height: 35px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 576px) {
+  .call {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  .cta-card h1 {
+      font-size: 16px;
+      line-height: normal;
+    }
+  .buy p {
+    font-size: 15px;
+  }
+}
